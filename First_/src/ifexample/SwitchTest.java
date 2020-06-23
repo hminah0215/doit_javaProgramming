@@ -1,0 +1,37 @@
+package ifexample;
+
+import java.util.Scanner;
+
+public class SwitchTest {
+	/*
+	 * 5층 건물이 있음. 1층 약국, 2층 정형외과, 3층 피부과, 4층 치과 5층 헬스클럽. 건물의 층을 누르면 그 층이 어떤 곳인지 알려주는
+	 * 엘리베이터가 있다고 할 때의 앞의 예제를 참고해서 switch-case문으로 구현해볼것 (5인 경우 '5층 헬스클럽입니다' 라고 출력)
+	 */
+	public static void main(String[] args) {
+		int floor = 0;
+		String str = "";
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("몇층 가십니까?");
+		floor = sc.nextInt();
+
+		switch (floor) {
+		case 1:
+			str ="약국";
+			break;
+		case 2:
+			str ="정형외과";
+			break;
+		case 3:
+			str ="피부과";
+			break;
+		case 4:
+			str ="치과";
+			break;
+		case 5:
+			str ="헬스클럽";
+			break;
+		}
+		System.out.println(floor+"층은 "+ str + "입니다.");
+	}
+}

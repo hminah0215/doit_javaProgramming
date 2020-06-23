@@ -1,0 +1,29 @@
+package loopexample;
+
+public class Test5_3 {
+	public static void main(String[] args) {
+		
+		for(int i =1; i <= 4; i++) {
+			String star = "";
+			
+			for(int j = i; j <= 4-1; j++) {
+				star += " ";
+			}
+			for(int j = 1; j <= 2 * i-1; j++) {
+				star += "*";
+			}
+			System.out.println(star);
+		}
+		for(int i =1; i <=3; i++) {
+			String star = "";
+			
+			for(int j = 1; j <= i; j++) {
+				star += " ";
+			}
+			for(int j = i; j <= 6 - i; j++) {
+				star +="*";
+			}
+			System.out.println(star);
+		}
+	}
+}

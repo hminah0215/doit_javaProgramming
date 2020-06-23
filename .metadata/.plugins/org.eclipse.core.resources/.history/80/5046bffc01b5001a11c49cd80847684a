@@ -1,0 +1,11 @@
+package constructor;
+
+public class Person {
+	String name;
+	float height;
+	float weight;
+	
+	// 따로 생성자를 만들지 않아도 자동으로 만들어지는 
+	// 디폴트 생성자는 이렇게 생김 
+	public Person() {}
+}

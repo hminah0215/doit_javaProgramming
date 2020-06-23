@@ -1,0 +1,28 @@
+package cooperation;
+
+public class Student {
+	public String studentName; // 학생이름
+	public int grade; // 학년
+	public int money; // 학생이 가지고 있는 돈
+
+	public Student(String studentName, int money) // 학생이름,가진돈을 매개변수로 갖는 생성자
+	{
+		this.studentName = studentName;
+		this.money = money;
+	}
+
+	public void takeBus(Bus bus) {	// 학생이 버스탑승시 천원을 지불하는 메소드
+		bus.take(1000);
+		this.money -= 1000;
+	}
+
+	public void takeSubway(Subway subway) {// 학생이 전철탑승시 천오백원을 지불하는 메소드
+		subway.take(1500);
+		this.money -= 1500;
+	}
+
+	public void showInfo() {
+		System.out.println(studentName + "���� ���� ���� " + money + "�Դϴ�.");
+	}
+
+}

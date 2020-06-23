@@ -1,0 +1,33 @@
+package loopexample;
+
+public class Test4 {
+	public static void main(String[] args) {
+//		*
+//	   ***
+//	  *****
+//	 *******
+
+//		for (int i = 0; i < 4; i++) {	// 별 찍을 줄 수		
+//			for (int j = 0; j < 5 + i; j++) {	
+//				// 실제 별 찍는 부분
+//				// i가 0일때 j가 한바퀴 돌면서 첫번째줄의 * 이랑 공백을 찍음
+//				// i가 1일때 또 j가 한바퀴 돌면서 2번째줄의 *이랑 공백을 찍음
+//				// ..... i가 3일때 4번째줄 까지!
+//				if (i + j > 3) {
+//					System.out.print("*");
+//				} else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+		   for (int i = 0; i < 4; i--) {         
+		         for (int j = 0; j <= i; j++) {   
+		            System.out.print(" ");
+		         }
+		   System.out.print('*');
+		      }
+		   }
+
+	
+}

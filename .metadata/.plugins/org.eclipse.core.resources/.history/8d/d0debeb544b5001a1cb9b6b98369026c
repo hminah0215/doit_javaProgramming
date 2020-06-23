@@ -1,0 +1,19 @@
+package singleton;
+
+// 196쪽 나혼자 코딩! 싱글톤 패턴으로 클래스 구현 연습하기
+public class Car {
+	
+	private static int carNum = 10000;
+	
+	public Car() {
+		carNum++;
+	}
+	
+	public int getCarNum() {
+		return carNum;
+	}
+	
+	public void setCarNum(int carNum) {
+		this.carNum = carNum;
+	}
+}

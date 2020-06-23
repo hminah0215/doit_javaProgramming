@@ -1,0 +1,35 @@
+package exercise4;
+
+public class Test5_2 {
+	public static void main(String[] args) {
+//		  *
+//	 	 ***
+//	    *****
+//     *******
+//	    *****
+//	     ***
+//	      *
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= i + 3; j++) {
+				if (j + i >= 5) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println("");
+		}
+
+		for (int k = 3; k >= 1; k--) {
+			for (int h = 1; h <= k + 3; h++) {
+				if (h + k >= 5) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println("");
+		}
+
+	}
+}

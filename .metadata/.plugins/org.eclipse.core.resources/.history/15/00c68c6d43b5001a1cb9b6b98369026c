@@ -1,0 +1,10 @@
+package singleton;
+
+public class Company {
+	
+	// 디폴트 생성자는 항상 public, 싱글톤 패턴에서는 생성자를 반드시 명시적으로 만들고
+	// 그 접근제어자를 private으로 지정해주어야 한다.
+	private Company() {
+
+	}
+}

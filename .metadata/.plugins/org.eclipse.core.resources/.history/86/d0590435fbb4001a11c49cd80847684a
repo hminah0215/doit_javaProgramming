@@ -1,0 +1,12 @@
+package classpart;
+
+public class OrderTest {
+	public static void main(String[] args) {
+		Order order = new Order();
+		
+		order.orderNum = 201803120001L;	// 자료형 long
+		order.orderId = "abc123";
+		order.orderDate = "2018년 3월 12일;
+		
+	}
+}

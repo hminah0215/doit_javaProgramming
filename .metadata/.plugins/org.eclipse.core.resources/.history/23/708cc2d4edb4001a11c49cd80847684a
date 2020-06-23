@@ -1,0 +1,22 @@
+package classpart;
+
+public class Person {
+
+	// 1분복습, 사람객체를 구현하는 Person 클래스 이름,나이,성별 멤버변수
+	// 131쪽 코딩해보세요도 여기다 추가
+	String name;
+	int age;
+	char gender;
+	int height;
+	double weight;
+	boolean married;
+
+}
+
+// 멤버변수 선언시 int같은 기본 자료형으로 할 수도 있고
+// 또다른 클래스 형으로 선언할 수도 있다.
+// 클래스형이란? 다른 말로 객체 자료형 또는 참조 자료형이라고 함 
+// 참조 자료형으로 사용하는 클래스는 String, Date 와 같이 
+// 이미 JDK에서 제공하는 것일 수도 있고, 개발자가 직접만든 
+// Student 나 Person과 같은 클래스가 다른클래스에서 사용하는 멤버변수의
+// 자료형이 될 수도 있음 

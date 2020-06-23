@@ -1,0 +1,19 @@
+package classpart;
+
+
+
+// 나혼자 코딩! 152p
+public class Order {
+	/*쇼핑몰에 주문이 들어옴 
+	 * 주문내용은 ~~~ 이것에 대한 클래스를 만들고 
+	 * 주문 내용을 인스턴스로 생성한 후 위와 같은 형식으로 출력해보시오
+	 */
+	
+	long orderNum;		// 주문번호
+	String orderId;		// 주문자아이디
+	String orderDate;		// 주문날짜
+	String name;		// 주문자이름
+	String ProductNum;		// 주문상품번호
+	String addr;		// 배송주소 
+	
+}

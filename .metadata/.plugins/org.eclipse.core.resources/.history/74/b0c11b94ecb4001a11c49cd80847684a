@@ -1,0 +1,11 @@
+package classpart;
+
+public class Person {
+
+	// 1분복습, 사람객체를 구현하는 Person 클래스 이름,나이,성별 멤버변수
+	
+	String name;
+	int age;
+	char gender;
+
+}

@@ -1,0 +1,29 @@
+package cooperation;
+
+public class TakeTrans {
+
+	// 학생, 버스, 지하철 객체 협력하기
+	// 학생이 버스나 지하철을 탔을때의 상황 구현
+	public static void main(String[] args) {
+		// 학생 두명 생성 (이름, 가진돈)
+		Student studentJames = new Student("James", 5000);
+		Student studentTomas = new Student("Tomas", 10000);
+
+		// 노선번호가 100번인 버스를 james가 탐
+		Bus bus100 = new Bus(100);
+		studentJames.takeBus(bus100);
+
+		// james 정보와 버스정보 출력
+		studentJames.showInfo();
+		bus100.showInfo();
+
+		// 노선번호가 2호선인 지하철을 tomas가 탐
+		Subway subwayGreen = new Subway("2호선");
+		studentTomas.takeSubway(subwayGreen);
+
+		// tomas정보와 지하철 정보 출력
+		studentTomas.showInfo();
+		subwayGreen.showInfo();
+
+	}
+}

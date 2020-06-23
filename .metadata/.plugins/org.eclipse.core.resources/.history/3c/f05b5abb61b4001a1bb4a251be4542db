@@ -1,0 +1,37 @@
+package loopexample;
+
+public class Test4 {
+	public static void main(String[] args) {
+//		*
+//		***
+//		*****
+//		*******
+//		for(int i=0; i<5; i++){
+//            int x=4;
+//            for(int j=0; j<x-i; j++){ // 별 앞에 공백을 찍는 for문
+//                 System.out.print(" ");
+//            }
+//            for(int k=0; k<=i; k++){ // 별을 찍는 for문
+//                 if(k == 0){ // *을 홀수개 찍기위해서 하나와
+//                      System.out.print("*");
+//            }
+//                else{ // 두개를 나눠서 찍는다.
+//                 System.out.print("**");
+//                }
+//            }// close for()
+//                 System.out.println("");
+//            }//close for()
+
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5 + i; j++) {
+				if (i + j > 3) {
+					System.out.print("* ");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+}

@@ -1,0 +1,17 @@
+package classpart;
+
+public class Man {
+	/*나혼자 코딩!
+	 * 1. 나이가 40살 이름이 james라는 남자가 있음. 결혼했고 자식이 세명
+	 * 이사람의 나이, 이름, 결혼여부, 자녀수를 출력해보기 
+	 */
+	
+	int age;
+	String name;
+	boolean isMarried;
+	int child;
+	
+	public String aboutMan() {
+		return "";
+	}
+}

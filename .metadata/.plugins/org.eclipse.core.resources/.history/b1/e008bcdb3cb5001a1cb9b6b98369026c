@@ -1,0 +1,40 @@
+package cooperation;
+
+public class TakeTrans {
+	// 학생, 버스, 지하철 객체 협력하기 학생이 버스나 지하철을 탔을때의 상황 구현
+	public static void main(String[] args) {
+		// 학생 두명 생성 (이름, 가진돈)
+		Student studentJames = new Student("James", 5000);
+		Student studentTomas = new Student("Tomas", 10000);
+
+		// 노선번호가 100번인 버스를 james가 탐
+		Bus bus100 = new Bus(100);
+		studentJames.takeBus(bus100);
+		// james 정보와 버스정보 출력
+		studentJames.showInfo();
+		bus100.showInfo();
+
+		// 노선번호가 2호선인 지하철을 tomas가 탐
+		Subway subwayGreen = new Subway("2호선");
+		studentTomas.takeSubway(subwayGreen);
+		// tomas정보와 지하철 정보 출력
+		studentTomas.showInfo();
+		subwayGreen.showInfo();
+		
+		/*
+		 * James님의 남은돈은 4000원 입니다. 버스 100번의 승객은 1명이고, 수입은 1000원 입니다. Tomas님의 남은돈은 8500원
+		 * 입니다. 2호선의 승객은 1명이고, 수입은 1500원 입니다.
+		 */
+
+		// 180쪽, 나혼자코딩! 택시타는 과정을 추가로 구현할것
+		// edward가 늦잠으로 택시를 타고 학교에감. 택시요금 만원!
+
+		Student studentEdward = new Student("Edward", 50000); // 에드워드는 오만원을 가지고있음
+		Taxi taxi = new Taxi("서울택시");
+		studentEdward.takeTaxi(taxi); // 늦잠잔 에드워드는 서울택시라는 택시를 탐
+
+		studentEdward.showInfo(); // 에드워드의 정보
+		taxi.showInfo();// 택시정보
+
+	}
+}

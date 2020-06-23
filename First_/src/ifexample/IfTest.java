@@ -1,0 +1,35 @@
+package ifexample;
+
+import java.util.Scanner;
+
+public class IfTest {
+	public static void main(String[] args) {
+		/*
+		 나혼자 코딩 성적에 따라 학점부여 
+		 100 ~90 점은 A, 89~80점은 B, 79~70 C, 69~60 D, 나머지 F 
+		 int형 변수 score, char형 변수 grade
+		 */
+		
+		int score = 0;
+		char grade;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("몇점인가요?");
+		score = sc.nextInt();
+		
+		if(score >= 90) {
+			grade = 'A';
+		}else if(score >= 80) {
+			grade = 'B';
+		}else if(score >= 70) {
+			grade = 'C';
+		}else if(score >= 60) {
+			grade = 'D';
+		}else {
+			grade = 'F';
+		}
+		System.out.println(grade);
+		sc.close();
+		
+	}
+}

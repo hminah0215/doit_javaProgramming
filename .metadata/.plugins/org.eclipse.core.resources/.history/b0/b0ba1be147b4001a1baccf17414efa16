@@ -1,0 +1,7 @@
+package loopexample;
+
+public class BasicLoop {
+	public static void main(String[] args) {
+		
+	}
+}
