@@ -7,4 +7,11 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="classpart.Order"/>
     <fullyQualifiedTypeName name="constructor.Person"/>
+    <fullyQualifiedTypeName name="thisTest.BirthDay"/>
+    <fullyQualifiedTypeName name="cooperation.Student"/>
+    <fullyQualifiedTypeName name="cooperation.Taxi"/>
+    <fullyQualifiedTypeName name="staticex.Student1"/>
+    <fullyQualifiedTypeName name="singleton.Company"/>
+    <fullyQualifiedTypeName name="singleton.CarFactory"/>
+    <fullyQualifiedTypeName name="singleton.Car"/>
 </qualifiedTypeNameHistroy>
