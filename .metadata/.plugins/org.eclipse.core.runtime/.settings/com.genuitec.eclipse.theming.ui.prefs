@@ -1,12 +1,12 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1589387624000
 codemix.dont.show.upsell.until=1594372094884
-configurationInstallLocation=/C\:/_etc/install/eclipse-jee-2020-06-R-win32-x86_64/eclipse/
+configurationInstallLocation=/C\:/_Study/Install/eclipse-jee-2020-06-R-win32-x86_64/eclipse/
 eclipse.preferences.version=1
 iconcolormode=primary
 includeThemingInOomph=false
-last.download.attempt.time=1592905920317
-lastConfiguration=1592992099172
+last.download.attempt.time=1593065159062
+lastConfiguration=1593065628139
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Dark Gray

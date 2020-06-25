@@ -14,4 +14,11 @@
     <fullyQualifiedTypeName name="singleton.Company"/>
     <fullyQualifiedTypeName name="singleton.CarFactory"/>
     <fullyQualifiedTypeName name="singleton.Car"/>
+    <fullyQualifiedTypeName name="array.ArrayListTest"/>
+    <fullyQualifiedTypeName name="array.Book"/>
+    <fullyQualifiedTypeName name="array.Student"/>
+    <fullyQualifiedTypeName name="arraylist.Subject"/>
+    <fullyQualifiedTypeName name="arraylist.Student"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="exercise.Question5"/>
 </qualifiedTypeNameHistroy>
