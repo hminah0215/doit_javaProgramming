@@ -1,18 +1,18 @@
 package scheduler;
 
-// ÇöÀç »ó´ã¾÷¹«°¡ ¾ø°Å³ª »ó´ã´ë±â°¡ °¡Àå ÀÛÀº »ó´ã¿ø¿¡°Ô ¹èºĞÇÕ´Ï´Ù.
-public class LeastJob implements Scheduler{
+// í˜„ì¬ ìƒë‹´ì—…ë¬´ê°€ ì—†ê±°ë‚˜ ìƒë‹´ëŒ€ê¸°ê°€ ì ì€ ìƒë‹´ì›ì—ê²Œ ë°°ë¶„ 
+public class LeastJob implements Scheduler {
 
 	@Override
 	public void getNextCall() {
-		System.out.println("»ó´ã ÀüÈ­¸¦ ¼ø¼­´ë·Î ´ë±â¿­¿¡¼­ °¡Á®¿É´Ï´Ù");
-		
+		System.out.println("ëŒ€ê¸°ì—´ì—ì„œ ìƒë‹´ì „í™”ë¥¼ ìˆœì„œëŒ€ë¡œ ê°€ì ¸ì˜µë‹ˆë‹¤.");
+
 	}
 
 	@Override
 	public void sendCallToAgent() {
-		System.out.println("ÇöÀç »ó´ã¾÷¹«°¡ ¾ø°Å³ª »ó´ã´ë±â°¡ °¡Àå ÀÛÀº »ó´ã¿ø¿¡°Ô ÇÒ´çÇÕ´Ï´Ù.");
-		
+		System.out.println("í˜„ì¬ ìƒë‹´ì—†ë¬´ê°€ ì—†ê±°ë‚´ ìƒë‹´ëŒ€ê¸°ê°€ ê°€ì¥ì ì€ ìƒë‹´ì›ì—ê²Œ í• ë‹¹í•©ë‹ˆë‹¤.");
+
 	}
 
 }

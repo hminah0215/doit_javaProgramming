@@ -1,17 +1,17 @@
 package scheduler;
 
-// °í°´µî±ŞÀÌ ³ôÀº °í°´ºÎÅÍ ´ë±â¿­¿¡¼­ °¡Á®¿Í ¾÷¹« ´É·ÂÀÌ ³ôÀº »ó´ã¿ø ¿ì¼±À¸·Î ¹èºĞÇÕ´Ï´Ù.
+// ê³ ê°ë“±ê¸‰ì´ ë†’ì€ ê³ ê°ì˜ ì „í™”ë¶€í„° ëŒ€ê¸°ì—´ì—ì„œ ê°€ì ¸ì™€ ì—…ë¬´ëŠ¥ë ¥ì´ ë†’ì€ ìƒë‹´ì›ì—ê²Œ ìš°ì„ ë°°ë¶„
 public class PriorityAllocation implements Scheduler{
 
 	@Override
 	public void getNextCall() {
-		System.out.println("°í°´ µî±ŞÀÌ ³ôÀº °í°´ÀÇ ÀüÈ­¸¦ ¸ÕÀú °¡Á®¿É´Ï´Ù.");
+		System.out.println("ê³ ê°ë“±ê¸‰ì´ ë†’ì€ ê³ ê°ì˜ ì „í™”ë¥¼ ë¨¼ì € ê°€ì ¸ì˜µë‹ˆë‹¤!");
 		
 	}
 
 	@Override
 	public void sendCallToAgent() {
-		System.out.println("¾÷¹« skill °ªÀÌ ³ôÀº »ó´ã¿ø¿¡°Ô ¿ì¼±ÀûÀ¸·Î ¹èºĞÇÕ´Ï´Ù.");
+		System.out.println("ì—…ë¬´ëŠ¥ë ¥ì´ ë†’ì€ ìƒë‹´ì›ì—ê²Œ ìš°ì„ ì ìœ¼ë¡œ ë°°ë¶„í•©ë‹ˆë‹¤.");
 		
 	}
 }

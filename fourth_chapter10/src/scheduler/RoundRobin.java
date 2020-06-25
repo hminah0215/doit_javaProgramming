@@ -1,18 +1,18 @@
 package scheduler;
 
-//»ó´ã¿ø ÇÑ¸í¾¿ µ¹¾Æ°¡¸ç µ¿ÀÏÇÏ°Ô »ó´ã¾÷¹«¸¦ ¹èºĞÇÕ´Ï´Ù.
-public class RoundRobin implements Scheduler{
+//ìƒë‹´ì› í•œëª…ì”© ëŒì•„ê°€ë©° ë™ì¼í•˜ê²Œ ìƒë‹´ ì—…ë¬´ë°°ë¶„ 
+public class RoundRobin implements Scheduler {
 
 	@Override
 	public void getNextCall() {
-		System.out.println("»ó´ã ÀüÈ­¸¦ ¼ø¼­´ë·Î ´ë±â¿­¿¡¼­ °¡Á®¿É´Ï´Ù");
-		
+		System.out.println("ëŒ€ê¸°ì—´ì—ì„œ ìƒë‹´ì „í™”ë¥¼ ìˆœì„œëŒ€ë¡œ ê°€ì ¸ì˜µë‹ˆë‹¤.");
+
 	}
 
 	@Override
 	public void sendCallToAgent() {
-		System.out.println("´ÙÀ½ ¼ø¼­ »ó´ã¿ø¿¡°Ô ¹èºĞÇÕ´Ï´Ù.");
-		
+		System.out.println("ë‹¤ìŒìˆœì„œ ìƒë‹´ì›ì—ê²Œ ë°°ë¶„í•©ë‹ˆë‹¤.");
+
 	}
 
 }

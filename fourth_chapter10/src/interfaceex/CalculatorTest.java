@@ -6,20 +6,27 @@ public class CalculatorTest {
 
 		int num1 = 10;
 		int num2 = 5;
-		
+
 		CompleteCalc calc = new CompleteCalc();
+		
 		System.out.println(calc.add(num1, num2));
 		System.out.println(calc.substract(num1, num2));
 		System.out.println(calc.times(num1, num2));
 		System.out.println(calc.divide(num1, num2));
-		calc.showInfo();
 		
+		calc.showInfo();
+
 		Calc newCalc = calc;
 		
-		calc.description();   //µğÆúÆ® ¸Ş¼Òµå È£Ãâ
-				
-	    int[] arr = {1,2,3,4,5};
-		System.out.println(Calc.total(arr));  //Á¤Àû ¸Ş¼Òµå »ç¿ëÇÏ±â
+		// default ë©”ì†Œë“œ í˜¸ì¶œ 
+		calc.description(); 
+
+		int[] arr = { 1, 2, 3, 4, 5 };
+		
+		// ì •ì ë©”ì†Œë“œ ì‚¬ìš© 1~5ë¥¼ ëª¨ë‘ ë”í•œ ê°’ 15 ë°˜í™˜ 
+		System.out.println(Calc.total(arr)); 
+		
+		System.out.println(calc.square(num1));  //ë‚˜í˜¼ìì½”ë”© ì¶”ê°€ ë©”ì„œë“œ
 
 	}
 }

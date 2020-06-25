@@ -3,9 +3,11 @@ package bookshelf;
 import java.util.ArrayList;
 
 public class Shelf {
-
+	
+	// 자료를 순서대로 저장할 ArrayList 선언 
 	protected ArrayList<String> shelf;
 	
+	// 디폴트 생성자
 	public Shelf(){
 		shelf = new ArrayList<String>();
 	}
