@@ -21,4 +21,7 @@
     <fullyQualifiedTypeName name="arraylist.Student"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="exercise.Question5"/>
+    <fullyQualifiedTypeName name="abstractex.Computer"/>
+    <fullyQualifiedTypeName name="abstractex.NoteBook"/>
+    <fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
 </qualifiedTypeNameHistroy>
